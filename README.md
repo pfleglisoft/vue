@@ -1,3 +1,11 @@
+## Simple changes, so that vue-clip is running properly:
+
+in vue/package.json (c.f. ll 5-6):
+```js
+  "main": "dist/vue.runtime.common.js", --> "main": "dist/vue.common.js",
+  "module": "dist/vue.runtime.esm.js", --> "main": "dist/vue.esm.js",
+```
+
 <p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
 
 <p align="center">
